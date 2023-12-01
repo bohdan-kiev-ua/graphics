@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+}
+
+.icon {
+    height: auto;
+    width: auto;
+}
+
+.titleContainer {
+    display: flex;
+    gap: 11px;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.titleContainer:hover {
+    background: #FF521D;
+    border-radius: 22.55px;
+    cursor: pointer;
+}
+
+.titleContainer:hover .title{
+    color: white;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 13.20px;
+    letter-spacing: 0.14px;
+    word-wrap: break-word;
+}
+
+.title {
+    color: #3A4C70;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 13.20px;
+    letter-spacing: 0.14px;
+    word-wrap: break-word;
+}
+
+.messageContainer {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+}
+
+.message {
+    height: 32px;
+    width: 32px;
+    opacity: 0.10;
+    background: #DB0019;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 10;
+}
+
+.messageText {
+    color: #DB0019;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 13.20px;
+    letter-spacing: 0.14px;
+    word-wrap: break-word;
+    position: relative;
+    z-index: 20;
+}
