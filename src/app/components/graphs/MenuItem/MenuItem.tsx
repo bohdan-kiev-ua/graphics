@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 import styles from './MenuItem.module.css';
 
 const MenuItem = ({text, icon, messages}: {text: string, icon: string, messages?: number}) => {
