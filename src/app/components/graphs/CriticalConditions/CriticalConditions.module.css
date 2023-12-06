@@ -1,0 +1,146 @@
+.container {
+    height: 275px;
+    width: 563px;
+    background: white;
+    box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
+    border-radius: 18px;
+    margin-bottom: 35px;
+    padding: 32px 55px 56px 20px;
+}
+
+.title {
+    color: #191D23;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 11px;
+}
+
+.profilePhoto {
+    height: 43px;
+    width: 43px;
+    margin-right: 23px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    padding: 22px 0;
+    display: flex;
+    align-items: flex-end;
+    height: 88px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.titleOpt {
+    opacity: 0.50;
+    color: #191D23;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    word-wrap: break-word
+}
+
+.conditionName {
+    color: #191D23;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.verticalLine {
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+
+.circleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    position: relative;
+    margin-right: 24px;
+}
+
+.circleImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px;
+    width: 36px;
+}
+
+.percent {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19.92px;
+    letter-spacing: 0.40px;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.lastSeen {
+    width: 136px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #C62828;
+    margin-right: 21px;
+    margin-bottom: 2px;
+
+    color: white;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    word-wrap: break-word;
+}
+
+.seeMore {
+    color: #FF521D;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 6px;
+    margin-right: 8px;
+}
+
+.seeMoreArrow {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.lineContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.greyLine {
+    width: 100%;
+    height: 0px;
+    opacity: 0.10;
+    border: 1px #979797 solid;
+}

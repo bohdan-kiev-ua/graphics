@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import SideMenu from "@/app/components/graphs/SideMenu/SideMenu";
 import Peoples from "@/app/components/graphs/Peoples/Peoples";
 import GraphChart from "@/app/components/graphs/GraphChart/GraphChart";
+import DailyGraph from "@/app/components/graphs/DailyGraph/DailyGraph";
+import WeeklyGraph from "@/app/components/graphs/WeeklyGraph/WeeklyGraph";
+import TodayGraph from "@/app/components/graphs/TodayGraph/TodayGraph";
+import TotalTasksGraph from "@/app/components/graphs/TotalTasksGraph/TotalTasksGraph";
+import CriticalConditions from "@/app/components/graphs/CriticalConditions/CriticalConditions";
 
 export default function Home() {
   return (
@@ -22,17 +27,17 @@ export default function Home() {
                 <div className={styles.contentGraphRow}>
                     <GraphChart />
                     <div className={styles.dailyGraphContainer}>
-                        <div className={styles.dailyGraph}></div>
-                        <div className={styles.dailyGraph}></div>
+                        <DailyGraph />
+                        <WeeklyGraph />
                     </div>
                     <div className={styles.totalGraphContainer}>
-                        <div className={styles.totalTasks}></div>
-                        <div className={styles.todayGraph}></div>
+                        <TotalTasksGraph />
+                        <TodayGraph />
                     </div>
                 </div>
                 <div className={styles.mapContainer}>
                     <div>
-                        <div className={styles.criticalConditions}></div>
+                        <CriticalConditions />
                         <div className={styles.developersContainer}>
                             <Peoples name={'Bennett Hermanoff'} group={'Echo'} />
                             <Peoples name={'Maddie Wisinski'} group={'Charles'} />

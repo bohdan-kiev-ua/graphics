@@ -46,14 +46,6 @@
   margin-bottom: 34px;
 }
 
-.dailyGraph {
-  width: 133px;
-  height: 167px;
-  background: #FDFDFD;
-  box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
-  border-radius: 18px;
-}
-
 .dailyGraphContainer {
   display: flex;
   flex-direction: column;
@@ -67,35 +59,10 @@
   justify-content: space-between;
 }
 
-.totalTasks {
-  height: 240px;
-  width: 190px;
-  background: #FDFDFD;
-  box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
-  border-radius: 18px;
-}
-
-.todayGraph {
-  height: 93px;
-  width: 190px;
-  background: #FDFDFD;
-  box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
-  border-radius: 18px;
-}
-
 .mapContainer {
   width: 100%;
   display: flex;
   gap: 54px;
-}
-
-.criticalConditions {
-  height: 275px;
-  width: 563px;
-  background: white;
-  box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
-  border-radius: 18px;
-  margin-bottom: 35px;
 }
 
 .developersContainer {
