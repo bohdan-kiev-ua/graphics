@@ -23,8 +23,8 @@ const CriticalConditions = () => {
             <h4 className={styles.title}>Critical Condition</h4>
             <div className={styles.lines}>
                 {data.map((line, index) => (
-                    <div className={styles.lineContainer}>
-                        <div key={index} className={styles.line}>
+                    <div key={index} className={styles.lineContainer}>
+                        <div className={styles.line}>
                             <img
                                 src="/images/profilePhoto.svg"
                                 className={styles.profilePhoto}
