@@ -3,9 +3,8 @@
 import React from 'react';
 import styles from './Map.module.css';
 import {MapContainer, Marker, Popup, TileLayer} from "react-leaflet";
-import {relativizeURL} from "next/dist/shared/lib/router/utils/relativize-url";
 
-const position = [51.505, -0.09]
+const position = [51.505, -0.09];
 
 const Map = () => {
     return (
