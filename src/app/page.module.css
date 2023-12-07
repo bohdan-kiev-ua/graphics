@@ -69,11 +69,3 @@
   display: flex;
   gap: 14px;
 }
-
-.map {
-  width: 426px;
-  height: 421px;
-  background: white;
-  box-shadow: 19px 19px 47px rgba(161.19, 176.13, 206.86, 0.04);
-  border-radius: 18px;
-}

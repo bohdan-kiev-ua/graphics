@@ -8,6 +8,7 @@ import WeeklyGraph from "@/app/components/graphs/WeeklyGraph/WeeklyGraph";
 import TodayGraph from "@/app/components/graphs/TodayGraph/TodayGraph";
 import TotalTasksGraph from "@/app/components/graphs/TotalTasksGraph/TotalTasksGraph";
 import CriticalConditions from "@/app/components/graphs/CriticalConditions/CriticalConditions";
+import Map from "@/app/components/graphs/Map/Map";
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
                             <Peoples name={'Alex Motyka'} group={'Bravo'} />
                         </div>
                     </div>
-                    <div className={styles.map}></div>
+                    <Map />
                 </div>
             </div>
         </div>
