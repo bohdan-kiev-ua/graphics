@@ -1,0 +1,29 @@
+
+.circleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    position: relative;
+    margin-right: 24px;
+}
+
+.circleImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px;
+    width: 36px;
+}
+
+.percent {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19.92px;
+    letter-spacing: 0.40px;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './CriticalConditions.module.css';
+import LastSeen from "@/app/components/LastSeen/LastSeen";
+import PercentRound from "@/app/components/PercentRound/PercentRound";
 
 const data = [
     {
@@ -41,17 +43,8 @@ const CriticalConditions = () => {
                                 width={1}
                                 height={14}
                             />
-                            <div className={styles.circleContainer}>
-                                <div className={styles.percent}>{line.percent}</div>
-                                <img
-                                    src="/images/ring.svg"
-                                    className={styles.circleImage}
-                                    alt=""
-                                />
-                            </div>
-                            <div className={styles.lastSeen}>
-                                Last Seen: {line.lastSeen}
-                            </div>
+                            <PercentRound text={line.percent} />
+                            <LastSeen title={line.lastSeen}/>
                             <div className={styles.seeMore}>
                                 See more
                             </div>

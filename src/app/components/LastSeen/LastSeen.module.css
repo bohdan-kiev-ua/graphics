@@ -1,0 +1,19 @@
+.container {
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #C62828;
+    margin-right: 21px;
+    margin-bottom: 2px;
+
+    color: white;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    word-wrap: break-word;
+    padding: 0 10px;
+}
